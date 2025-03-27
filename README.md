@@ -31,11 +31,11 @@ To add a new microservice:
     ```yaml
     replicaCount: 2
     image:
-    repository: my-microservice
-    tag: "1.0.0"
+      repository: my-microservice
+      tag: "1.0.0"
     service:
-    type: ClusterIP
-    port: 8080
+      type: ClusterIP
+      port: 8080
     ```
 
 4. Deploy the microservices using Helm:
