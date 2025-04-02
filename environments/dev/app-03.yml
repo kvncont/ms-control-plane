@@ -1,4 +1,4 @@
-fullnameOverride: "app-01"
+fullnameOverride: "app-03"
 replicaCount: 1
 
 image:
