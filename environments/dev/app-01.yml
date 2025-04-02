@@ -1,0 +1,5 @@
+fullnameOverride: "app-01"
+replicaCount: 1
+
+image:
+  repository: nginx
